@@ -9,30 +9,34 @@ export default function Header({currentPage, handlePageChange}) {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <a
-      href="#"
-      className="nav-item nav-link active grey-button"
-      aria-current="page"
+        href="#"
+        onClick={() => handlePageChange('About')}
+        className="nav-item nav-link active grey-button"
+        aria-current="page"
       >
         About
       </a>
       <a
-      href="#"
-      className="nav-item nav-link active"
-      aria-current="page"
+        href="#"
+        onClick={() => handlePageChange('Contact')}
+        className="nav-item nav-link active"
+        aria-current="page"
       >
         Contact
       </a>
       <a
-      href="#"
-      className="nav-item nav-link active"
-      aria-current="page"
+        href="#"
+        onClick={() => handlePageChange('Portfolio')}
+        className="nav-item nav-link active"
+        aria-current="page"
       >
         Portfolio
       </a>
         <a
-        href="#"
-        className="nav-item nav-link active"
-        aria-current="page"
+          href="#"
+          onClick={() => handlePageChange('Resume')}
+          className="nav-item nav-link active"
+          aria-current="page"
         >
           Resume
         </a>
