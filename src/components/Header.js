@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function Header() {
+export default function Header({currentPage, handlePageChange}) {
   return(
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav className="navbar navbar-expand-lg navbar-dark bg-black">
   <div className="container-fluid">
     {/* <a className="navbar-brand" href="#">Navbar</a> */}
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

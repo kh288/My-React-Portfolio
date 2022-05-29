@@ -12,27 +12,27 @@ export default function Container() {
 
   const renderPage = () => {
     switch(currentPage){
-      case('About'):
-        return <About />;
       case('Contact'):
         return <Contact />;
       case('Portfolio'):
         return <Portfolio />;
       case('Resume'):
         return <Resume />;
+      default:
+        return <About />;
     }
   }
-  
+
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
+    <main className="bg-dark text-light">
       <Header
-      currentPage={currentPage}
-      handlePageChange={handlePageChange}
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
       />
-      {renderPage()};
+        {renderPage()}
       <Footer/>
-    </>
+    </main>
   );
 }
