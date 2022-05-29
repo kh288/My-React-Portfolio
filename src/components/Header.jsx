@@ -12,7 +12,7 @@ export default function Header({currentPage, handlePageChange}) {
         <a
           href="#"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active text-light' : 'nav-link text-light'}
+          className={currentPage === 'About' ? 'nav-link nav-item active' : 'nav-link text-light'}
           aria-current="page"
         >
           About
@@ -20,7 +20,7 @@ export default function Header({currentPage, handlePageChange}) {
         <a
           href="#"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active text-light' : 'nav-link text-light'}
+          className={currentPage === 'Contact' ? 'nav-link nav-item active' : 'nav-link text-light'}
           aria-current="page"
         >
           Contact
@@ -28,7 +28,7 @@ export default function Header({currentPage, handlePageChange}) {
         <a
           href="#"
           onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active text-light' : 'nav-link text-light'}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link text-light'}
           aria-current="page"
         >
           Portfolio
@@ -36,7 +36,7 @@ export default function Header({currentPage, handlePageChange}) {
           <a
             href="#"
             onClick={() => handlePageChange('Resume')}
-            className={currentPage === 'Resume' ? 'nav-link active text-light' : 'nav-link text-light'}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link text-light'}
             aria-current="page"
           >
             Resume
