@@ -11,7 +11,7 @@ export default function Header({currentPage, handlePageChange}) {
       <a
         href="#"
         onClick={() => handlePageChange('About')}
-        className="nav-item nav-link active grey-button"
+        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         aria-current="page"
       >
         About
@@ -19,7 +19,7 @@ export default function Header({currentPage, handlePageChange}) {
       <a
         href="#"
         onClick={() => handlePageChange('Contact')}
-        className="nav-item nav-link active"
+        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         aria-current="page"
       >
         Contact
@@ -27,7 +27,7 @@ export default function Header({currentPage, handlePageChange}) {
       <a
         href="#"
         onClick={() => handlePageChange('Portfolio')}
-        className="nav-item nav-link active"
+        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         aria-current="page"
       >
         Portfolio
@@ -35,7 +35,7 @@ export default function Header({currentPage, handlePageChange}) {
         <a
           href="#"
           onClick={() => handlePageChange('Resume')}
-          className="nav-item nav-link active"
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
           aria-current="page"
         >
           Resume
