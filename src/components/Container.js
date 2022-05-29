@@ -26,13 +26,15 @@ export default function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <main className="bg-dark text-light">
+    <>
       <Header
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
+      <main className="container-fluid">
         {renderPage()}
+      </main>
       <Footer/>
-    </main>
+    </>
   );
 }
