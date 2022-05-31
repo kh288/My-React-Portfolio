@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return(
-<div className="card m-3">
+<article className="card m-3">
   <div className="card-header">
     <h2 className="display-4">My name is Kevin Hernandez</h2>
   </div>
@@ -13,6 +13,6 @@ export default function About() {
       <p className="card-text">Learning the MERN stack</p>
     </div>
   </div>
-</div>
+</article>
   );
 }

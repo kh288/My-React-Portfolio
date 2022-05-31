@@ -32,7 +32,9 @@ main {
 }
 
 .sub-card,
-.active {
+.active,
+.form-control,
+.form-floating {
   background-color: var(--main-bg-color);
   border-radius: .5rem;
   /* box-shadow:
