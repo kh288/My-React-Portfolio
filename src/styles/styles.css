@@ -2,6 +2,7 @@
   --main-bg-color: #333; /* 333 */
   --card-bg-color: #4a4a4a; /* 444 */
   --light-bg-color: #888; /* 888 */
+
   --highlight-color: #e36d30;
   --dark-highlight-color: #c95b22;
 }
@@ -66,6 +67,11 @@ main {
 .icon {
   font-size: 3em;
 }
+
+/* #footer {
+  margin-top: auto;
+} */
+
 
 /* .grey-button:hover {
   background-color: #888;

@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return(
     <>
-    <div className="navbar justify-content-center">
+    <div id="footer" className="navbar mt-auto justify-content-center">
       <a href="#">
         <i className="bi-github p-3 icon"></i>
       </a>

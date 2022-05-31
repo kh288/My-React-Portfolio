@@ -31,10 +31,12 @@ export default function Container() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
-      <main className="container-fluid">
+      <main
+      className="container-fluid p-0" //min-vh-100
+      >
         {renderPage()}
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 }
