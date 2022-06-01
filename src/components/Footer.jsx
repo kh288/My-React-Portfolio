@@ -8,19 +8,28 @@ export default function Footer() {
     <>
     <div id="footer" className="navbar card fixed-bottom bg-light">
       <div className="container-fluid justify-content-center">
-        <a href="https://github.com/kh288">
+        <a
+          href="https://github.com/kh288"
+          rel="noreferrer"
+          target="_blank">
           <i
             className="bi-github p-3 icon"
             style={icon}
           ></i>
         </a>
-        <a href="https://www.linkedin.com/in/kevin-hernandez-5a8243167">
+        <a 
+          href="https://www.linkedin.com/in/kevin-hernandez-5a8243167"
+          rel="noreferrer"
+          target="_blank">
           <i
             className="bi-linkedin p-3 icon"
             style={icon}
           ></i>
         </a>
-        <a href="https://mail.google.com/">
+        <a 
+          href="https://mail.google.com/"
+          rel="noreferrer"
+          target="_blank">
           <i
             className="bi-envelope-fill p-3 icon"
             style={icon}
