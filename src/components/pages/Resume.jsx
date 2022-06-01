@@ -2,8 +2,10 @@ import React from "react";
 
 export default function Resume() {
   return(
-    <h2>
-      Resume
-    </h2>
+    <div id="resume">
+      <h2>
+        Resume
+      </h2>
+    </div>
   );
 }

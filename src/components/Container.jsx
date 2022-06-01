@@ -32,7 +32,9 @@ export default function Container() {
         handlePageChange={handlePageChange}
       />
       <main
-      className="container-fluid p-0" //min-vh-100
+      className="container-fluid p-0"
+      style={{maxWidth: 850}}
+       //min-vh-100
       >
         {renderPage()}
       </main>

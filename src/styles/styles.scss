@@ -8,10 +8,15 @@
   --dark-highlight-color: #c95b22;
 }
 
+$main-bg-color: #333;
+$light-bg-color: #888;
+$primary: #e36d30;
+
+@import "bootstrap";
 
 html,
 body {
-  background-color: var(--main-bg-color);
+  background-color: $main-bg-color;
   color: var(--light-bg-color);
 }
 
@@ -66,21 +71,20 @@ main {
 
 
 ::selection {
-  background-color: var(--highlight-color);
+  background-color: $primary;
 }
 
 .icon {
   font-size: 3em;
 }
 
-.btn,
-.btn:hover {
-  color: var(--light-text-color);
-  background-color: var(--highlight-color);
-}
-
 #floatingTextarea2 {
   height: 20rem;
+}
+
+.btn,
+.btn:hover {
+  color: white;
 }
 
 /* #footer {
