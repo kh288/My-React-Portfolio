@@ -1,7 +1,9 @@
 import React from "react";
 
 export default function Footer() {
-  const icon = {fontSize: 48}
+  const icon = {
+    fontSize: 48
+  }
   return(
     <>
     <div id="footer" className="navbar card fixed-bottom bg-light">

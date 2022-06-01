@@ -4,7 +4,7 @@ export default function Header({currentPage, handlePageChange}) {
   return(
   <>
   <nav className="navbar navbar-expand-md card navbar-light">
-    <div className="container-fluid">
+    <div className="container-fluid ">
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
@@ -18,20 +18,20 @@ export default function Header({currentPage, handlePageChange}) {
           About
         </a>
         <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link nav-item active' : 'nav-link '}
-          aria-current="page"
-        >
-          Contact
-        </a>
-        <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link '}
           aria-current="page"
         >
           Portfolio
+        </a>
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link nav-item active' : 'nav-link '}
+          aria-current="page"
+        >
+          Contact
         </a>
           <a
             href="#resume"
