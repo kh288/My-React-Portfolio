@@ -2,13 +2,13 @@ import React from "react";
 import burgerSnippet01 from "../../assets/burger-snippet-cropped-02.png";
 
 export default function Portfolio() {
-  const imageStuff = {
-    backgroundImage: `url(${burgerSnippet01})`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: `cover`,
-    minHeight: 480
-  }
+  // const imageStuff = {
+  //   backgroundImage: `url(${burgerSnippet01})`,
+  //   backgroundPosition: "center",
+  //   backgroundRepeat: "no-repeat",
+  //   backgroundSize: `cover`,
+  //   minHeight: 480
+  // }
 
   return(
     <article id="portfolio" className="card m-3">
@@ -18,8 +18,7 @@ export default function Portfolio() {
         
         <div className="m-3 gap-3 row">
           <div
-          className="card col-md text-center p-3" 
-          // style={imageStuff}
+          className="card col-md text-center p-3 bg-light"
           >
             <h3>Social Burger</h3>
             <p>Full-Stack Application</p>
@@ -40,7 +39,7 @@ export default function Portfolio() {
             </div>
           </div>
           <div
-          className="card col-md text-center p-3"
+          className="card col-md text-center p-3 bg-light"
           >
             <h3>Social Burger</h3>
             <p>Full-Stack Application</p>
@@ -61,11 +60,9 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-
         <div className="m-3 gap-3 row">
           <div
-          className="card col-md text-center p-3" 
-          // style={imageStuff}
+          className="card col-md text-center p-3 bg-light"
           >
             <h3>Social Burger</h3>
             <p>Full-Stack Application</p>
@@ -86,7 +83,7 @@ export default function Portfolio() {
             </div>
           </div>
           <div
-          className="card col-md text-center p-3"
+          className="card col-md text-center p-3 bg-light"
           >
             <h3>Social Burger</h3>
             <p>Full-Stack Application</p>
