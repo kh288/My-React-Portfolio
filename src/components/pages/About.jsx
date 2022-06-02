@@ -1,9 +1,11 @@
 import React from "react";
+import kevinPic from "../../images/kevin-pic.png"
 
 export default function About() {
   return(
 <article className="card m-3">
-  <div className="card-header">
+  <div className="card-header text-center">
+    <img src={kevinPic} alt="Picture of kevin" style={{width: "50%"}}/>
     <h2 className="display-4">I'm Kevin Hernandez</h2>
   </div>
   <div className="card sub-card m-3">
