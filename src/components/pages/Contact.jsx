@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact() {
   return(
-<article id="contact" className="card m-3">
+<article className="card m-3">
   <div className="card-header">
     <h2 className="display-4">Contact</h2>
   </div>

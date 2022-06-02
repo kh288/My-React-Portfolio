@@ -12,11 +12,22 @@
 // $light-bg-color: #888;
 $lightPrimary: #f1ae8c;
 $primary: #e36d30;
+$lightText: #aaa;
 
 @import "bootstrap";
 
 main {
   max-width: 1024px;
+  margin-bottom: 108px;
+}
+
+article,
+.navbar {
+  box-shadow: 0 0 1em 0 #888;
+}
+
+.display-4 {
+  color: $primary;
 }
 
 .navbar,
