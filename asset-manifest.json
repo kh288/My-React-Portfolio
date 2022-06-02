@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.12113ccd.css",
-    "main.js": "/my-react-portfolio/static/js/main.12debbf0.js",
-    "static/media/burger-snippet-cropped-02.png": "/my-react-portfolio/static/media/burger-snippet-cropped-02.5c52f8c595e6a90ec82d.png",
+    "main.css": "/my-react-portfolio/static/css/main.f8683d4c.css",
+    "main.js": "/my-react-portfolio/static/js/main.545e638f.js",
+    "static/media/burger.png": "/my-react-portfolio/static/media/burger.5ab79cc55252743e62ff.png",
+    "static/media/social-media-api.png": "/my-react-portfolio/static/media/social-media-api.bb8f5dd3025cb560ed1e.png",
+    "static/media/stock-portfolio.png": "/my-react-portfolio/static/media/stock-portfolio.b1acd253050f9e831428.png",
+    "static/media/text-editor.png": "/my-react-portfolio/static/media/text-editor.bbc37c3ed357b93626db.png",
     "static/media/bootstrap-icons.woff?": "/my-react-portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
     "static/media/bootstrap-icons.woff2?": "/my-react-portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
     "index.html": "/my-react-portfolio/index.html",
-    "main.12113ccd.css.map": "/my-react-portfolio/static/css/main.12113ccd.css.map",
-    "main.12debbf0.js.map": "/my-react-portfolio/static/js/main.12debbf0.js.map"
+    "main.f8683d4c.css.map": "/my-react-portfolio/static/css/main.f8683d4c.css.map",
+    "main.545e638f.js.map": "/my-react-portfolio/static/js/main.545e638f.js.map"
   },
   "entrypoints": [
-    "static/css/main.12113ccd.css",
-    "static/js/main.12debbf0.js"
+    "static/css/main.f8683d4c.css",
+    "static/js/main.545e638f.js"
   ]
 }
