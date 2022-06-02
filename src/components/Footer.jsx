@@ -6,7 +6,7 @@ export default function Footer() {
   }
   return(
     <>
-    <div id="footer" className="navbar mt-3 card fixed-bottom bg-light">
+    <div id="footer" className="navbar mt-3 card fixed-bottom">
       <div className="container-fluid justify-content-center">
         <a
           href="https://github.com/kh288"

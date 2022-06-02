@@ -1,5 +1,5 @@
 import React from "react";
-import burgerSnippet01 from "../../assets/burger-snippet-cropped-02.png";
+import burgerSnippet01 from "../../images/burger-snippet-cropped-02.png";
 
 export default function Portfolio() {
   // const imageStuff = {
@@ -9,6 +9,10 @@ export default function Portfolio() {
   //   backgroundSize: `cover`,
   //   minHeight: 480
   // }
+  const imageAdj = {
+    objectFit: "contain",
+    width: "100%"
+  }
 
   return(
     <article id="portfolio" className="card m-3">
@@ -17,77 +21,14 @@ export default function Portfolio() {
         </div>
         
         <div className="m-3 gap-3 row">
-          <div
-          className="card col-md text-center p-3 bg-light"
-          >
+          <div className="card sub-card col-md text-center p-3">
             <h3>Social Burger</h3>
             <p>Full-Stack Application</p>
-            <img src={burgerSnippet01} alt="Social burger app"></img>
-            <div className="mt-3">
-              <a
-                className="btn btn-primary mx-1"
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/kh288/Social-Burger"
-              >Repository</a>
-              <a
-                className="btn btn-primary mx-1"
-                rel="noreferrer"
-                target="_blank"
-                href="https://social-burger.herokuapp.com"
-              >Deployed</a>
-            </div>
-          </div>
-          <div
-          className="card col-md text-center p-3 bg-light"
-          >
-            <h3>Social Burger</h3>
-            <p>Full-Stack Application</p>
-            <img src={burgerSnippet01} alt="Social burger app"></img>
-            <div className="mt-3">
-              <a
-                className="btn btn-primary mx-1"
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/kh288/Social-Burger"
-              >Repository</a>
-              <a
-                className="btn btn-primary mx-1"
-                rel="noreferrer"
-                target="_blank"
-                href="https://social-burger.herokuapp.com"
-              >Deployed</a>
-            </div>
-          </div>
-        </div>
-        <div className="m-3 gap-3 row">
-          <div
-          className="card col-md text-center p-3 bg-light"
-          >
-            <h3>Social Burger</h3>
-            <p>Full-Stack Application</p>
-            <img src={burgerSnippet01} alt="Social burger app"></img>
-            <div className="mt-3">
-              <a
-                className="btn btn-primary mx-1"
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/kh288/Social-Burger"
-              >Repository</a>
-              <a
-                className="btn btn-primary mx-1"
-                rel="noreferrer"
-                target="_blank"
-                href="https://social-burger.herokuapp.com"
-              >Deployed</a>
-            </div>
-          </div>
-          <div
-          className="card col-md text-center p-3 bg-light"
-          >
-            <h3>Social Burger</h3>
-            <p>Full-Stack Application</p>
-            <img src={burgerSnippet01} alt="Social burger app"></img>
+            <img
+              src={burgerSnippet01}
+              alt="Social burger app"
+              style={imageAdj}>
+            </img>
             <div className="mt-3">
               <a
                 className="btn btn-primary mx-1"

@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 // Custom Style
-// import './styles/styles.scss';
+import './styles/styles.scss';
 
 // Render react DOM
 const root = ReactDOM.createRoot(document.getElementById('root'));

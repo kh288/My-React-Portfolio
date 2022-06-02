@@ -6,7 +6,7 @@ export default function About() {
   <div className="card-header">
     <h2 className="display-4">About Me</h2>
   </div>
-  <div className="sub-card m-3">
+  <div className="card sub-card m-3">
     <div className="card-body">
       <h4 className="card-title">I'm Kevin Hernandez</h4>
       <h4 className="card-title">a Web Developer</h4>

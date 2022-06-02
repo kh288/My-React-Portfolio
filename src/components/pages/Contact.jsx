@@ -6,7 +6,7 @@ export default function Contact() {
   <div className="card-header">
     <h2 className="display-4">Contact</h2>
   </div>
-  <div className="sub-card m-3">
+  <div className="card sub-card m-3">
     <div className="card-body text-center">
       
       <div className="input-group mb-3">
