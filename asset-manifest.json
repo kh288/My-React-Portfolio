@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.f8683d4c.css",
-    "main.js": "/my-react-portfolio/static/js/main.545e638f.js",
+    "main.js": "/my-react-portfolio/static/js/main.8cda2dcd.js",
     "static/media/burger.png": "/my-react-portfolio/static/media/burger.5ab79cc55252743e62ff.png",
     "static/media/social-media-api.png": "/my-react-portfolio/static/media/social-media-api.bb8f5dd3025cb560ed1e.png",
     "static/media/stock-portfolio.png": "/my-react-portfolio/static/media/stock-portfolio.b1acd253050f9e831428.png",
     "static/media/text-editor.png": "/my-react-portfolio/static/media/text-editor.bbc37c3ed357b93626db.png",
     "static/media/bootstrap-icons.woff?": "/my-react-portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
     "static/media/bootstrap-icons.woff2?": "/my-react-portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/Resume-2022-May.pdf": "/my-react-portfolio/static/media/Resume-2022-May.ff384ee78f0c83f5fd6f.pdf",
     "index.html": "/my-react-portfolio/index.html",
     "main.f8683d4c.css.map": "/my-react-portfolio/static/css/main.f8683d4c.css.map",
-    "main.545e638f.js.map": "/my-react-portfolio/static/js/main.545e638f.js.map"
+    "main.8cda2dcd.js.map": "/my-react-portfolio/static/js/main.8cda2dcd.js.map"
   },
   "entrypoints": [
     "static/css/main.f8683d4c.css",
-    "static/js/main.545e638f.js"
+    "static/js/main.8cda2dcd.js"
   ]
 }
