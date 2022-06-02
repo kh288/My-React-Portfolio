@@ -44,25 +44,25 @@ export default function Resume() {
           <h4 className="card-title">Backend</h4>
           <ul>
             <li>
-              <p>HTML</p>
+              <p>Node</p>
             </li>
             <li>
-              <p>CSS</p>
+              <p>Express</p>
             </li>
             <li>
-              <p>Javascript</p>
+              <p>SQL</p>
             </li>
             <li>
-              <p>Handlebars</p>
+              <p>REST APIs</p>
             </li>
             <li>
-              <p>Bootstrap</p>
+              <p>Insomnia</p>
             </li>
             <li>
-              <p>jQuery</p>
+              <p>Mongoose</p>
             </li>
             <li>
-              <p>React</p>
+              <p>MongoDB</p>
             </li>
           </ul>
         </div>
