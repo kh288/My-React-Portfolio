@@ -63,13 +63,13 @@ export default function Portfolio() {
                 className="btn btn-primary mx-1"
                 rel="noreferrer"
                 target="_blank"
-                href="https://github.com/kh288/Social-Burger"
+                href="https://github.com/kh288/Text-Editor"
               >Repository</a>
               <a
                 className="btn btn-primary mx-1"
                 rel="noreferrer"
                 target="_blank"
-                href="https://social-burger.herokuapp.com"
+                href="https://kevins-text-editor.herokuapp.com"
               >Deployed</a>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function Portfolio() {
                 className="btn btn-primary mx-1"
                 rel="noreferrer"
                 target="_blank"
-                href="https://social-burger.herokuapp.com"
+                href="https://kh288.github.io/Stock-Portfolio-Analyzer/"
               >Deployed</a>
             </div>
           </div>
